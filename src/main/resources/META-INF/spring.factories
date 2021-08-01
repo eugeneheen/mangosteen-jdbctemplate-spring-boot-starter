@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.eugeneheen.mangosteen.jdbctemplate.config.MangosteenJdbcTemplateConfiguration
