@@ -1,7 +1,7 @@
-package com.eugeneheen.mangosteen.jdbctemplate;
+package com.github.eugeneheen.mangosteen.jdbctemplate;
 
-import com.eugeneheen.mangosteen.jdbctemplate.pojo.User;
-import com.eugeneheen.mangosteen.jdbctemplate.repository.impl.UserRepository;
+import com.github.eugeneheen.mangosteen.jdbctemplate.pojo.User;
+import com.github.eugeneheen.mangosteen.jdbctemplate.repository.impl.UserRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

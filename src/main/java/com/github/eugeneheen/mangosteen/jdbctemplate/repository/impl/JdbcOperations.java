@@ -1,6 +1,6 @@
-package com.eugeneheen.mangosteen.jdbctemplate.repository.impl;
+package com.github.eugeneheen.mangosteen.jdbctemplate.repository.impl;
 
-import com.eugeneheen.mangosteen.jdbctemplate.repository.AbstratcJdbcOperations;
+import com.github.eugeneheen.mangosteen.jdbctemplate.repository.AbstratcJdbcOperations;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

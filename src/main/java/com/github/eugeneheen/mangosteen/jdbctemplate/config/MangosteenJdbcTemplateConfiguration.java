@@ -1,4 +1,4 @@
-package com.eugeneheen.mangosteen.jdbctemplate.config;
+package com.github.eugeneheen.mangosteen.jdbctemplate.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
