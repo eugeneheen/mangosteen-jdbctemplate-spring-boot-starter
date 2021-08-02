@@ -1,4 +1,4 @@
-package com.eugeneheen.mangosteen.jdbctemplate.pojo;
+package com.github.eugeneheen.mangosteen.jdbctemplate.pojo;
 
 import lombok.Data;
 

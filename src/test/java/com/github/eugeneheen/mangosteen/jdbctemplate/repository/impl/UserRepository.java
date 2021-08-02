@@ -1,7 +1,7 @@
-package com.eugeneheen.mangosteen.jdbctemplate.repository.impl;
+package com.github.eugeneheen.mangosteen.jdbctemplate.repository.impl;
 
-import com.eugeneheen.mangosteen.jdbctemplate.pojo.User;
-import com.eugeneheen.mangosteen.jdbctemplate.repository.IUserRepository;
+import com.github.eugeneheen.mangosteen.jdbctemplate.pojo.User;
+import com.github.eugeneheen.mangosteen.jdbctemplate.repository.IUserRepository;
 import org.springframework.stereotype.Service;
 
 /**

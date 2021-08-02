@@ -1,4 +1,4 @@
-package com.eugeneheen.mangosteen.jdbctemplate.repository;
+package com.github.eugeneheen.mangosteen.jdbctemplate.repository;
 
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
