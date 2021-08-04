@@ -50,10 +50,6 @@
     ```
  - Setp4. 编写一个`数据层`的`类`，继承`JdbcOperations`，通过`super`关键字调用执行原生`SQL`的`API`方法，代码示例:
    ```java
-   /**
-     * @author ChenZhiHeng
-     * @date 2021年08月01日
-     */
     @Service
     public class UserRepository extends JdbcOperations implements IUserRepository {
 
