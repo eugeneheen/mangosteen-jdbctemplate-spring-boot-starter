@@ -5,8 +5,11 @@
 
     <groupId>com.github.eugeneheen</groupId>
     <artifactId>mangosteen-jdbctemplate-spring-boot-starter</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <name>mangosteen-jdbctemplate-spring-boot-starter</name>
+    <!-- 项目主页的URL，浏览Maven产生的文档 -->
+    <!-- Invalid POM: /com/github/eugeneheen/mangosteen-jdbctemplate-spring-boot-starter/1.0.0/mangosteen-jdbctemplate-spring-boot-starter-1.0.0.pom: Project URL missing -->
+    <url>https://github.com/eugeneheen/mangosteen-jdbctemplate-spring-boot-starter</url>
     <description>Mangosteen JdbcTemplate Starter Project For Spring Boot</description>
 
     <properties>
@@ -16,13 +19,6 @@
         <lombok.version>1.18.20</lombok.version>
         <mysql.connector.java.version>8.0.26</mysql.connector.java.version>
     </properties>
-
-<!--    <parent>-->
-<!--        <groupId>org.sonatype.oss</groupId>-->
-<!--        <artifactId>oss-parent</artifactId>-->
-<!--        <version>9</version>-->
-<!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
-<!--    </parent>-->
 
     <dependencyManagement>
         <dependencies>
@@ -81,23 +77,6 @@
         </dependency>
     </dependencies>
 
-<!--    <build>-->
-<!--        <plugins>-->
-<!--            <plugin>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--                <configuration>-->
-<!--                    <excludes>-->
-<!--                        <exclude>-->
-<!--                            <groupId>org.projectlombok</groupId>-->
-<!--                            <artifactId>lombok</artifactId>-->
-<!--                        </exclude>-->
-<!--                    </excludes>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
-<!--        </plugins>-->
-<!--    </build>-->
-
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -109,9 +88,9 @@
 
     <scm>
         <tag>main</tag>
-        <url>https://github.com/eugeneheen/mangosteen-jdbctemplate-spring-boot-starter</url>
-        <connection>https://github.com:eugeneheen/mangosteen-jdbctemplate-spring-boot-starter.git</connection>
-        <developerConnection>https://github.com/eugeneheen/mangosteen-jdbctemplate-spring-boot-starter.git</developerConnection>
+        <url>https://github.com/eugeneheen/mangosteen-jdbctemplate-spring-boot-starter.git</url>
+        <connection>scm:git:https://github.com/eugeneheen/mangosteen-jdbctemplate-spring-boot-starter.git</connection>
+        <developerConnection>scm:git@github.com:eugeneheen/mangosteen-jdbctemplate-spring-boot-starter.git</developerConnection>
     </scm>
 
     <developers>
@@ -119,6 +98,7 @@
             <id>EugeneHeen</id>
             <name>ChenZhiHeng</name>
             <email>eugeneheen_chen@126.com</email>
+            <url>https://github.com/eugeneheen/mangosteen-jdbctemplate-spring-boot-starter</url>
             <organization>EugeneHeen</organization>
             <organizationUrl>https://github.com/eugeneheen</organizationUrl>
             <roles>
@@ -131,7 +111,7 @@
     <profiles>
         <profile>
             <!-- 与settings.xml文件中GPG配置的profile的id值匹配 -->
-            <id>nexus</id>
+            <id>nexus-release</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
@@ -236,6 +216,7 @@
                             <!-- 与distributionManagement中的id匹配 -->
                             <serverId>sonatype-nexus</serverId>
                             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <!-- 发布后如果想手动登录Nexus Repositories，进行close和release从操作，此处设置为false -->
                             <autoReleaseAfterClose>true</autoReleaseAfterClose>
                         </configuration>
                     </plugin>
