@@ -1,9 +1,9 @@
 ### Mangosteen JDBC Kit
 
 - 基于`SpringBoot 2.x`版本。
-- 已继承`Spring Data JDBC 2.2.3`版本，***切勿重复引入依赖***。
+- 已整合`Spring Data JDBC 2.2.3`版本，***切勿重复引入依赖***。
 - 实现基于`Spring Framework`框架`JdbcTemplate`操作原生`SQL`，用于`占位符语法 - ?`和`命名语法 - :Bean属性名`这2中语法的便捷工具方法封装，以此更简洁快速的操作执行原生`SQL`的业务场景。
-- 要使用`Spring Data JDBC`，直接参照[SpringData官方手册](https://docs.spring.io/spring-data/jdbc/docs/2.2.3/reference/html/#preface)
+- 如需使用`Spring Data JDBC`，直接参照[SpringData官方手册](https://docs.spring.io/spring-data/jdbc/docs/2.2.3/reference/html/#preface)
 
 ### 如何集成 Mangosteen JDBC
 
