@@ -9,7 +9,7 @@
     <name>mangosteen-jdbctemplate-spring-boot-starter</name>
     <!-- 项目主页的URL，浏览Maven产生的文档 -->
     <!-- Invalid POM: /com/github/eugeneheen/mangosteen-jdbctemplate-spring-boot-starter/1.0.0/mangosteen-jdbctemplate-spring-boot-starter-1.0.0.pom: Project URL missing -->
-    <url>https://github.com/eugeneheen/mangosteen-jdbctemplate-spring-boot-starter</url>
+    <url>https://eugeneheen.github.io/mangosteen-jdbctemplate-spring-boot-starter/</url>
     <description>Mangosteen JdbcTemplate Starter Project For Spring Boot</description>
 
     <properties>
@@ -98,7 +98,7 @@
             <id>EugeneHeen</id>
             <name>ChenZhiHeng</name>
             <email>eugeneheen_chen@126.com</email>
-            <url>https://github.com/eugeneheen/mangosteen-jdbctemplate-spring-boot-starter</url>
+            <url>https://eugeneheen.github.io/mangosteen-jdbctemplate-spring-boot-starter</url>
             <organization>EugeneHeen</organization>
             <organizationUrl>https://github.com/eugeneheen</organizationUrl>
             <roles>
@@ -164,6 +164,12 @@
                             <additionalJOptions>
                                 <additionalJOption>-Xdoclint:none</additionalJOption>
                             </additionalJOptions>
+                            <!-- utf-8读取文件 -->
+                            <charset>UTF-8</charset>
+                            <!-- utf-8进行编码文档 -->
+                            <encoding>UTF-8</encoding>
+                            <!-- utf-8进行编码文档 -->
+                            <docencoding>UTF-8</docencoding>
                         </configuration>
                         <executions>
                             <execution>
