@@ -1,4 +1,4 @@
-## Welcome to mangosteen jdbc kit
+Mangosteen JDBC Kit
 
 You can use the [editor on GitHub](https://github.com/eugeneheen/mangosteen-jdbctemplate-spring-boot-starter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
